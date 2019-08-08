@@ -39,7 +39,7 @@ elif grade >= 50:
 else:
     print('F')
 
-'''
+
 
 #fizzbuzz
 #for the first 50 integers
@@ -48,12 +48,10 @@ else:
 #if its a multiple of 15, print 'fizzbuzz'
 #otherwise, just print the number
 
-'''
+
 for num in range(1, 51):
     print(num, end=' ')
-'''
 
-'''
 for num in range(1, 51):
     if num % 3 == 0: #range is in num and modulas is seeing if there is a remainder in multiples of 3
         print('fizz')
@@ -63,9 +61,7 @@ for num in range(1, 51):
         print('fizzbuzz')
     else:
         print(num)
-'''
 
-'''
 for num in range(1, 51):
     if num % 15 == 0: 
         print('fizzbuzz')
@@ -75,8 +71,6 @@ for num in range(1, 51):
         print('fizz')
     else:
         print(num)
-
-'''
 
 name = 'Fizzbuzz'
 
@@ -88,4 +82,48 @@ if len(name) > 6
 
 
 
+#with and everything has to be true if anything else than false
+#divided any even number the remainder is 1
 
+#using 'and' and 'or' in conditionals
+num = 14
+
+#display a message if number is odd and also less than 20
+if num % 2 == 1 and num < 20:
+    print('odd number less than 20')
+else:
+    print('something else')
+
+
+num = 6
+if num % 2 == 1:
+    print('Weird')
+if num % 2 == 0 and num >= 2 and num <= 5:
+    print('Not Weird')
+
+if num % 2 == 0 and num >= 6 and num <= 20:
+    print('Weird')
+if num % 2 == 0 and num > 20:
+    print('Not Weird')
+
+
+#group print statements together
+if num % 2 == 1 or (num % 2 == 0 and num >= 6 and num <= 20):
+   print('Weird')
+if (num % 2 == 0 and (num >= 2 and num <= 5)) or  (num % 2 == 0 and num > 20):
+    print('Not Weird')
+
+'''
+
+#nested ifs
+city = 'Toronto'
+name = 'Edwin'
+if city == 'Toronto':
+    if name == 'Princeton'
+        print('Welcome, newcomer!!')
+    elif name == 'Connor':
+        print('Wassup!!')
+    else:
+        print('hello {}'.format(name))
+else:
+    print('I\'m not familiar with your city')
