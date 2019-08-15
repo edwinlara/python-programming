@@ -16,12 +16,11 @@ print(type(has_kids))
 #check if a number is even
 
 num = 10
+
 if num % 2 == 0:
     print('It is even!')
 else:
     print('It is odd')
-
-'''
 
 #comparison operators
 # > - greater than
@@ -30,7 +29,6 @@ else:
 # <=  - less than or equal to
 # == - equal to
 # != not equal to 
-
 # = assin to
 
 #truthiness
@@ -48,4 +46,5 @@ if  q:
     print('yes')
 else:
     print('no')
-
+    
+'''
